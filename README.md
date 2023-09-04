@@ -1,16 +1,5 @@
-## Data 100 Spring 2022 website
+## Study records of ChinYo for data sicence course of "Principles and Techniques of Data Science(Data 100 Spring 2022)"--UC Berkeley
 
-Public facing repo for Data 100, Spring 2022
+### Source:
+https://ds100.org/sp22/
 
-Note to staff: **Always** pull changes before making any edits. Merge conflicts (even those resolved automatically) can break things on the Datahub side.
-
-The `main` branch is used for Datahub. To edit ds100.org github pages (Syllabus, etc.), switch to the `gh-pages` branch. Some common commands:
-
-```
-git branch -a         # see all local and remote branches
-
-git checkout gh-pages                # if branch exists locally, or
-git checkout --track origin/gh-pages # if branch exists remotely
-...                   # edit, commit
-git push              # pushes local branch to remote branch
-```
